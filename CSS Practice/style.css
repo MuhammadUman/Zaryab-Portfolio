@@ -113,14 +113,15 @@ a {
 }
 /* Header container styles */
 .header_container {
+  position: absolute;
   display: flex;
   flex-direction: column;
   min-height: 300px;
   margin-top: 35vh;
 }
 .header_line {
-  position: absolute;
-  top: 280px;
+  position: relative;
+  top: 30px;
   display: block;
   background-color: var(--TEXTCOLOR);
   height: 40px;
@@ -472,6 +473,7 @@ a {
   text-align: center;
 }
 @media (375px<=width<799px) {
+  
   .showcase_heading{
     margin-top: 70px;
   }
